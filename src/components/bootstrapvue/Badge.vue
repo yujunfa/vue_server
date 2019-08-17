@@ -10,8 +10,8 @@
       <b-button variant="primary">Notes <b-badge variant="light">4</b-badge></b-button>
     </div>
     <div>
-      <b-badge variant="primary">Primary</b-badge>
-      <b-badge variant="secondary">Secondary</b-badge>
+      <b-badge pill variant="primary">Primary</b-badge>
+      <b-badge href="#" variant="secondary">Secondary</b-badge>
       <b-badge variant="success">Success</b-badge>
       <b-badge variant="danger">Danger</b-badge>
       <b-badge variant="warning">Warning</b-badge>

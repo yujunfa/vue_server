@@ -10,11 +10,26 @@ import BlogLists from '@/components/BlogLists';
 import Navbar from '@/components/Navbar';
 import BVDemo from '@/components/BVDemo';
 import Badge from '@/components/bootstrapvue/Badge';
+import BreadcrumbDemo from "../components/bootstrapvue/BreadcrumbDemo";
+import ButtonDemo from "../components/bootstrapvue/ButtonDemo";
+import ButtonGroupDemo from "../components/bootstrapvue/ButtonGroupDemo";
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
+    {
+      path: '/demo/ButtonGroupDemo',
+      component: ButtonGroupDemo
+    },
+    {
+      path: '/ButtonDemo',
+      component: ButtonDemo
+    },
+    {
+      path: '/BreadcrumbDemo',
+      component: BreadcrumbDemo
+    },
     {
       path: '/Badge',
       name: Badge,
