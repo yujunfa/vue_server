@@ -15,11 +15,21 @@ import ButtonDemo from "../components/bootstrapvue/ButtonDemo";
 import ButtonGroupDemo from "../components/bootstrapvue/ButtonGroupDemo";
 import ButtonToolbarDemo from "../components/bootstrapvue/ButtonToolbarDemo";
 import CardsDemo from "../components/bootstrapvue/CardsDemo";
+import CardsDemo01 from "../components/bootstrapvue/CardsDemo01";
+import CardsBodyDemo01 from "../components/bootstrapvue/CardsBodyDemo01";
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
+    {
+      path: '/demo/CardsBodyDemo01',
+      component: CardsBodyDemo01
+    },
+    {
+      path: '/demo/CardsDemo01',
+      component: CardsDemo01
+    },
     {
       path: '/demo/CardsDemo',
       component: CardsDemo
