@@ -13,11 +13,21 @@ import Badge from '@/components/bootstrapvue/Badge';
 import BreadcrumbDemo from "../components/bootstrapvue/BreadcrumbDemo";
 import ButtonDemo from "../components/bootstrapvue/ButtonDemo";
 import ButtonGroupDemo from "../components/bootstrapvue/ButtonGroupDemo";
+import ButtonToolbarDemo from "../components/bootstrapvue/ButtonToolbarDemo";
+import CardsDemo from "../components/bootstrapvue/CardsDemo";
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
+    {
+      path: '/demo/CardsDemo',
+      component: CardsDemo
+    },
+    {
+      path: '/demo/ButtonToolbarDemo',
+      component: ButtonToolbarDemo
+    },
     {
       path: '/demo/ButtonGroupDemo',
       component: ButtonGroupDemo

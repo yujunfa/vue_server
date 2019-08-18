@@ -21,6 +21,23 @@
           <b-button variant="danger">Button3</b-button>
         </b-button-group>
       </div>
+      <hr/>
+      <div>
+        <b-button-group>
+          <b-dropdown right text="Menu">
+            <b-dropdown-item>Item 1</b-dropdown-item>
+            <b-dropdown-item>Item 2</b-dropdown-item>
+            <b-dropdown-divider></b-dropdown-divider>
+            <b-dropdown-item>Item 3</b-dropdown-item>
+          </b-dropdown>
+          <b-dropdown right split text="Split Menu">
+            <b-dropdown-item>Item 1</b-dropdown-item>
+            <b-dropdown-item>Item 2</b-dropdown-item>
+            <b-dropdown-divider></b-dropdown-divider>
+            <b-dropdown-item>Item 3</b-dropdown-item>
+          </b-dropdown>
+        </b-button-group>
+      </div>
     </div>
 </template>
 
